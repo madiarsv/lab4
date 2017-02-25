@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+	<html>
+	<body>
+	<script>
+	
+	function mad(n) {
+	  var a = 1,
+	    b = 1;
+	  for (var i = 3; i <= n; i++) {
+	    var c = a + b;
+	    a = b;
+	    b = c;
+	  }
+	  return b;
+	}
+	
+	alert( mad(3) ); // 2
+	alert( mad(7) ); // 13
+	alert( mad(77) ); // 5527939700884757
+	
+	</script>
+	</script>
+	</body>
+	</html>
